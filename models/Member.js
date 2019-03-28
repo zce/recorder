@@ -14,12 +14,12 @@ const Member = new keystone.List('Member', {
 })
 
 Member.add({
-  name: { label: '姓名', type: String },
+  name: { label: '姓名', type: String, required: true },
   gender: { label: '性别', type: Types.Select, options: '男, 女, 未知' },
   age: { label: '年龄', type: Number },
-  phone: { label: '手机号码', type: String, unique: true },
-  idcard: { label: '身份证号码', type: String, unique: true },
-  email: { label: '邮箱', type: Types.Email, unique: true },
+  phone: { label: '手机号码', type: String },
+  idcard: { label: '身份证号码', type: String },
+  email: { label: '邮箱', type: Types.Email },
   qq: { label: 'QQ', type: String },
   wechat: { label: '微信', type: String },
   now_city: { label: '所在城市', type: String },
