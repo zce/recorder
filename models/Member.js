@@ -29,7 +29,7 @@ Member.add({
   school: { label: '毕业学校', type: String },
   major: { label: '主修专业', type: String },
   graduated_at: { label: '毕业时间', type: Types.Date },
-  target_subject: { label: '预报名学科', type: Types.Select, options: '前端，JavaEE，Python，.Net，大数据，产品经理，软件测试，UI/UE' },
+  target_subject: { label: '预报名学科', type: Types.Select, options: '前端, JavaEE, Python, .Net, 大数据, 产品经理, 软件测试, UI/UE' },
   target_class: { label: '预报名班级', type: String },
   coming_at: { label: '预报道时间', type: Types.Date },
   paied: { label: '缴齐学费', type: Boolean },
@@ -38,19 +38,6 @@ Member.add({
   note: { label: '备注', type: Types.Textarea }
 })
 
-Member.defaultColumns = 'name, gender, phone, qq, target_subject, target_class, paied'
+Member.defaultColumns = 'name, gender, phone, qq, target_subject, target_class, paied, note'
 
 Member.register()
-
-/*
-
-学历
-毕业院校
-专业
-毕业时间
-目前所在地
-预计到校时间
-家庭联系人及电话
-缴费时间
-优惠码
-*/
