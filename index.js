@@ -25,4 +25,9 @@ keystone.init({
 
 keystone.import('models')
 
+keystone.set('nav', {
+  'members': 'members',
+  'users': 'users'
+})
+
 keystone.start()
