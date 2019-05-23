@@ -8,6 +8,7 @@ keystone.init({
 
   // Server
   // https://keystonejs.com/documentation/configuration/server-options
+  'port': 6000,
   'static': 'public',
 
   // Database
