@@ -5186,10 +5186,10 @@ keystone-utils@^0.4.0:
     randomkey "^1.0.0"
     speakingurl "^9.0.0"
 
-keystone@4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/keystone/-/keystone-4.1.0.tgz#eaed8b0db96b8df26abddeba747eed447760b41e"
-  integrity sha512-3NEVuPVSwNThPoBy0infG2mS97eLqDKsQoWY/PVeo8zXTPW35rYbBlc5Ezssw/1sOen9srS1u4/zycKvNqh0Gg==
+keystone@4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/keystone/-/keystone-4.1.1.tgz#b8ee08f3511f92075cd8eb5635bc6ca03d75f3d7"
+  integrity sha512-Syjveb/AsCR294J9YIHp0wYvCaLTySY1ja8xxjakFnU3Qo09XE5FVF2QdT4zyFvlhdJMnhmH5XoUS6rqu0PQcQ==
   dependencies:
     "@babel/core" "^7.4.4"
     "@babel/plugin-proposal-class-properties" "^7.4.4"
