@@ -50,7 +50,7 @@
     }
   },
   "dependencies": {
-    "keystone": "4.1.1"
+    "keystone": "4.2.1"
   },
   "devDependencies": {
     "@commitlint/cli": "8.0.0",
