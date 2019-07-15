@@ -5228,10 +5228,10 @@ keystone-utils@^0.4.0:
     randomkey "^1.0.0"
     speakingurl "^9.0.0"
 
-keystone@4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/keystone/-/keystone-4.1.1.tgz#b8ee08f3511f92075cd8eb5635bc6ca03d75f3d7"
-  integrity sha512-Syjveb/AsCR294J9YIHp0wYvCaLTySY1ja8xxjakFnU3Qo09XE5FVF2QdT4zyFvlhdJMnhmH5XoUS6rqu0PQcQ==
+keystone@4.2.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/keystone/-/keystone-4.2.1.tgz#172769fb92940aa7035cd3a84d7a4d35b2eef23c"
+  integrity sha512-rdhCuTR/wbsSnsdZZgBJi/3MOWDPll3BzvUFWxbjSo904+OO+8soaTPF1ikLkxjGpzh/EbDqM0ARTaE0vQBYUA==
   dependencies:
     "@babel/core" "^7.4.4"
     "@babel/plugin-proposal-class-properties" "^7.4.4"
